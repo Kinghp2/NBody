@@ -10,22 +10,21 @@
 #include <vector>
 #include "Body.h"
 #include "numcpp/matrix.h"
-#include <map>
+#include <future>
 #include "./store/Store.h"
 
 class Integrator
 {
 public:
-    Integrator(vector<Body>& bodies, double time_step, double T) :
-            m_bodies(bodies),
-            m_time_step(time_step),
-            T(T)
-    {};
-    std::vector<Body>& m_bodies;
+    Integrator(vector<Body> &bodies, double time_step, double T) : m_bodies(bodies),
+                                                                   m_time_step(time_step),
+                                                                   T(T){};
+    std::vector<Body> &m_bodies;
     double m_time_step;
     double G_const = 6.67408e-11;
     double T;
     Store storer{m_bodies};
+    uint64_t timer();
 };
 
 class Euler : public virtual Integrator
@@ -35,15 +34,14 @@ public:
     void update_locations();
     matrix compute_positions(double T);
     void simulate();
+    void simulate_async();
 
 private:
-    Vector calculate_g(std::vector<Body>::iterator, Body*);
-    Vector calculate_single_body_acceleration(int& index, Body& target_body);
-    std::map<vector<int>, Vector> repeated_pairs;
-    bool pair_is_stored(int&, int&);
-    void store_pair(int&, int&, Vector&);
-    Vector get_pair(int&, int&);
+    Vector calculate_g(std::vector<Body>::iterator, Body *);
+    void calculate_single_body_acceleration(int &index, Body &target_body);
+    double cycle_time;
+    uint64_t nanos();
+    std::vector< std::future<void> > mFuture;
 };
 
-
-#endif //CLION_MODERN_OPENGL_INTEGRATOR_H
+#endif // CLION_MODERN_OPENGL_INTEGRATOR_H

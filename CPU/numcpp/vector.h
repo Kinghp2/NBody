@@ -9,11 +9,9 @@
 #include <assert.h>
 #include <iostream>
 
-
 using namespace std;
 
 struct Vector {
-
 
     double x, y, z;
     double magnitude;
@@ -39,7 +37,7 @@ struct Vector {
     }
 
     static Vector random() {
-        Vector random{ double(rand()), double(rand()), double(rand()) };
+        Vector random{ double(rand() - RAND_MAX / 2), double(rand() - RAND_MAX / 2), double(rand() - RAND_MAX / 2) };
         return random;
     }
 
