@@ -73,71 +73,71 @@ CMakeFiles/NBody.dir/main.cpp.o: CMakeFiles/NBody.dir/flags.make
 CMakeFiles/NBody.dir/main.cpp.o: ../main.cpp
 CMakeFiles/NBody.dir/main.cpp.o: CMakeFiles/NBody.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/salvatoremarchese/Documents/Coding/C++/NBody/CPU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/NBody.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NBody.dir/main.cpp.o -MF CMakeFiles/NBody.dir/main.cpp.o.d -o CMakeFiles/NBody.dir/main.cpp.o -c /Users/salvatoremarchese/Documents/Coding/C++/NBody/CPU/main.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NBody.dir/main.cpp.o -MF CMakeFiles/NBody.dir/main.cpp.o.d -o CMakeFiles/NBody.dir/main.cpp.o -c /Users/salvatoremarchese/Documents/Coding/C++/NBody/CPU/main.cpp
 
 CMakeFiles/NBody.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NBody.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/salvatoremarchese/Documents/Coding/C++/NBody/CPU/main.cpp > CMakeFiles/NBody.dir/main.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/salvatoremarchese/Documents/Coding/C++/NBody/CPU/main.cpp > CMakeFiles/NBody.dir/main.cpp.i
 
 CMakeFiles/NBody.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NBody.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/salvatoremarchese/Documents/Coding/C++/NBody/CPU/main.cpp -o CMakeFiles/NBody.dir/main.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/salvatoremarchese/Documents/Coding/C++/NBody/CPU/main.cpp -o CMakeFiles/NBody.dir/main.cpp.s
 
 CMakeFiles/NBody.dir/Integrator.cpp.o: CMakeFiles/NBody.dir/flags.make
 CMakeFiles/NBody.dir/Integrator.cpp.o: ../Integrator.cpp
 CMakeFiles/NBody.dir/Integrator.cpp.o: CMakeFiles/NBody.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/salvatoremarchese/Documents/Coding/C++/NBody/CPU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/NBody.dir/Integrator.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NBody.dir/Integrator.cpp.o -MF CMakeFiles/NBody.dir/Integrator.cpp.o.d -o CMakeFiles/NBody.dir/Integrator.cpp.o -c /Users/salvatoremarchese/Documents/Coding/C++/NBody/CPU/Integrator.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NBody.dir/Integrator.cpp.o -MF CMakeFiles/NBody.dir/Integrator.cpp.o.d -o CMakeFiles/NBody.dir/Integrator.cpp.o -c /Users/salvatoremarchese/Documents/Coding/C++/NBody/CPU/Integrator.cpp
 
 CMakeFiles/NBody.dir/Integrator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NBody.dir/Integrator.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/salvatoremarchese/Documents/Coding/C++/NBody/CPU/Integrator.cpp > CMakeFiles/NBody.dir/Integrator.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/salvatoremarchese/Documents/Coding/C++/NBody/CPU/Integrator.cpp > CMakeFiles/NBody.dir/Integrator.cpp.i
 
 CMakeFiles/NBody.dir/Integrator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NBody.dir/Integrator.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/salvatoremarchese/Documents/Coding/C++/NBody/CPU/Integrator.cpp -o CMakeFiles/NBody.dir/Integrator.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/salvatoremarchese/Documents/Coding/C++/NBody/CPU/Integrator.cpp -o CMakeFiles/NBody.dir/Integrator.cpp.s
 
 CMakeFiles/NBody.dir/numcpp/matrix.cpp.o: CMakeFiles/NBody.dir/flags.make
 CMakeFiles/NBody.dir/numcpp/matrix.cpp.o: ../numcpp/matrix.cpp
 CMakeFiles/NBody.dir/numcpp/matrix.cpp.o: CMakeFiles/NBody.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/salvatoremarchese/Documents/Coding/C++/NBody/CPU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/NBody.dir/numcpp/matrix.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NBody.dir/numcpp/matrix.cpp.o -MF CMakeFiles/NBody.dir/numcpp/matrix.cpp.o.d -o CMakeFiles/NBody.dir/numcpp/matrix.cpp.o -c /Users/salvatoremarchese/Documents/Coding/C++/NBody/CPU/numcpp/matrix.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NBody.dir/numcpp/matrix.cpp.o -MF CMakeFiles/NBody.dir/numcpp/matrix.cpp.o.d -o CMakeFiles/NBody.dir/numcpp/matrix.cpp.o -c /Users/salvatoremarchese/Documents/Coding/C++/NBody/CPU/numcpp/matrix.cpp
 
 CMakeFiles/NBody.dir/numcpp/matrix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NBody.dir/numcpp/matrix.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/salvatoremarchese/Documents/Coding/C++/NBody/CPU/numcpp/matrix.cpp > CMakeFiles/NBody.dir/numcpp/matrix.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/salvatoremarchese/Documents/Coding/C++/NBody/CPU/numcpp/matrix.cpp > CMakeFiles/NBody.dir/numcpp/matrix.cpp.i
 
 CMakeFiles/NBody.dir/numcpp/matrix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NBody.dir/numcpp/matrix.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/salvatoremarchese/Documents/Coding/C++/NBody/CPU/numcpp/matrix.cpp -o CMakeFiles/NBody.dir/numcpp/matrix.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/salvatoremarchese/Documents/Coding/C++/NBody/CPU/numcpp/matrix.cpp -o CMakeFiles/NBody.dir/numcpp/matrix.cpp.s
 
 CMakeFiles/NBody.dir/store/Store.cpp.o: CMakeFiles/NBody.dir/flags.make
 CMakeFiles/NBody.dir/store/Store.cpp.o: ../store/Store.cpp
 CMakeFiles/NBody.dir/store/Store.cpp.o: CMakeFiles/NBody.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/salvatoremarchese/Documents/Coding/C++/NBody/CPU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/NBody.dir/store/Store.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NBody.dir/store/Store.cpp.o -MF CMakeFiles/NBody.dir/store/Store.cpp.o.d -o CMakeFiles/NBody.dir/store/Store.cpp.o -c /Users/salvatoremarchese/Documents/Coding/C++/NBody/CPU/store/Store.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NBody.dir/store/Store.cpp.o -MF CMakeFiles/NBody.dir/store/Store.cpp.o.d -o CMakeFiles/NBody.dir/store/Store.cpp.o -c /Users/salvatoremarchese/Documents/Coding/C++/NBody/CPU/store/Store.cpp
 
 CMakeFiles/NBody.dir/store/Store.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NBody.dir/store/Store.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/salvatoremarchese/Documents/Coding/C++/NBody/CPU/store/Store.cpp > CMakeFiles/NBody.dir/store/Store.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/salvatoremarchese/Documents/Coding/C++/NBody/CPU/store/Store.cpp > CMakeFiles/NBody.dir/store/Store.cpp.i
 
 CMakeFiles/NBody.dir/store/Store.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NBody.dir/store/Store.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/salvatoremarchese/Documents/Coding/C++/NBody/CPU/store/Store.cpp -o CMakeFiles/NBody.dir/store/Store.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/salvatoremarchese/Documents/Coding/C++/NBody/CPU/store/Store.cpp -o CMakeFiles/NBody.dir/store/Store.cpp.s
 
 CMakeFiles/NBody.dir/Parser.cpp.o: CMakeFiles/NBody.dir/flags.make
 CMakeFiles/NBody.dir/Parser.cpp.o: ../Parser.cpp
 CMakeFiles/NBody.dir/Parser.cpp.o: CMakeFiles/NBody.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/salvatoremarchese/Documents/Coding/C++/NBody/CPU/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/NBody.dir/Parser.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NBody.dir/Parser.cpp.o -MF CMakeFiles/NBody.dir/Parser.cpp.o.d -o CMakeFiles/NBody.dir/Parser.cpp.o -c /Users/salvatoremarchese/Documents/Coding/C++/NBody/CPU/Parser.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NBody.dir/Parser.cpp.o -MF CMakeFiles/NBody.dir/Parser.cpp.o.d -o CMakeFiles/NBody.dir/Parser.cpp.o -c /Users/salvatoremarchese/Documents/Coding/C++/NBody/CPU/Parser.cpp
 
 CMakeFiles/NBody.dir/Parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NBody.dir/Parser.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/salvatoremarchese/Documents/Coding/C++/NBody/CPU/Parser.cpp > CMakeFiles/NBody.dir/Parser.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/salvatoremarchese/Documents/Coding/C++/NBody/CPU/Parser.cpp > CMakeFiles/NBody.dir/Parser.cpp.i
 
 CMakeFiles/NBody.dir/Parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NBody.dir/Parser.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/salvatoremarchese/Documents/Coding/C++/NBody/CPU/Parser.cpp -o CMakeFiles/NBody.dir/Parser.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/salvatoremarchese/Documents/Coding/C++/NBody/CPU/Parser.cpp -o CMakeFiles/NBody.dir/Parser.cpp.s
 
 # Object files for target NBody
 NBody_OBJECTS = \
