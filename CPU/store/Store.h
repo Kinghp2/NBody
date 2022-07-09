@@ -1,15 +1,15 @@
-#include <iostream>
-#include <vector>
-#include "../Body.h"
+// #include <iostream>
+// #include <vector>
+// #include "../Body.h"
 
-class Store
-{
+// class Store
+// {
 
-public:
-    Store(vector<Body> &bodies) : mBodies(bodies){};
-    void store();
-    void store_mass();
+// public:
+//     Store(vector<Body> &bodies) : mBodies(bodies){};
+//     void store();
+//     void store_mass();
 
-private:
-    vector<Body> &mBodies;
-};
+// private:
+//     vector<Body> &mBodies;
+// };
