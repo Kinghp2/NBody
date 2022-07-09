@@ -225,30 +225,6 @@ numcpp/matrix.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/NBody.dir/build.make CMakeFiles/NBody.dir/numcpp/matrix.cpp.s
 .PHONY : numcpp/matrix.cpp.s
 
-store/Store.o: store/Store.cpp.o
-.PHONY : store/Store.o
-
-# target to build an object file
-store/Store.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NBody.dir/build.make CMakeFiles/NBody.dir/store/Store.cpp.o
-.PHONY : store/Store.cpp.o
-
-store/Store.i: store/Store.cpp.i
-.PHONY : store/Store.i
-
-# target to preprocess a source file
-store/Store.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NBody.dir/build.make CMakeFiles/NBody.dir/store/Store.cpp.i
-.PHONY : store/Store.cpp.i
-
-store/Store.s: store/Store.cpp.s
-.PHONY : store/Store.s
-
-# target to generate assembly for a file
-store/Store.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NBody.dir/build.make CMakeFiles/NBody.dir/store/Store.cpp.s
-.PHONY : store/Store.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -270,9 +246,6 @@ help:
 	@echo "... numcpp/matrix.o"
 	@echo "... numcpp/matrix.i"
 	@echo "... numcpp/matrix.s"
-	@echo "... store/Store.o"
-	@echo "... store/Store.i"
-	@echo "... store/Store.s"
 .PHONY : help
 
 

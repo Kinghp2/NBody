@@ -7,8 +7,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/NBody.dir/main.cpp.o.d"
   "CMakeFiles/NBody.dir/numcpp/matrix.cpp.o"
   "CMakeFiles/NBody.dir/numcpp/matrix.cpp.o.d"
-  "CMakeFiles/NBody.dir/store/Store.cpp.o"
-  "CMakeFiles/NBody.dir/store/Store.cpp.o.d"
   "NBody"
   "NBody.pdb"
 )
