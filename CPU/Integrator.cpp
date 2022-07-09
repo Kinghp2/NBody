@@ -15,8 +15,7 @@ uint64_t Integrator::timer()
     return (uint64_t)start.tv_nsec + (uint64_t)start.tv_sec * 1000000000;
 }
 
-static std::mutex _sMutex;
-
+    
 void Euler::calculate_single_body_acceleration(int &index,
                                                  Body &target_body)
 {
@@ -42,7 +41,6 @@ void Euler::update_locations()
 {
     // 19*N*(N-1)
     int i = 0;
-    std::lock_guard<std::mutex> lock(_sMutex);
     for (auto b = m_bodies.begin(); b != m_bodies.end(); *b++, i++)
     {
         calculate_single_body_acceleration(i, (*b));
