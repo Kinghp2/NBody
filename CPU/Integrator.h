@@ -23,7 +23,7 @@ public:
     double m_time_step;
     double G_const = 6.67408e-11;
     double T;
-    Store storer{m_bodies};
+    // Store storer{m_bodies};
     uint64_t timer();
 };
 

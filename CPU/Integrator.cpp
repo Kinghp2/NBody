@@ -65,7 +65,7 @@ void Euler::simulate()
         int A = m_bodies.size();
         auto gflops = 25 * A * A * 1e-9;
         cout << "GFLOPS: " << gflops / time << endl;
-        storer.store();
+        // storer.store();
     }
 }
 
