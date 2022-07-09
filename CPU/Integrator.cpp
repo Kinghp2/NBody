@@ -54,7 +54,7 @@ void Euler::update_locations()
 void Euler::simulate()
 {
     int N = int(T / m_time_step);
-    storer.store_mass();
+    // storer.store_mass();
     for (int i = 0; i < N; i++)
     {
         uint64_t start = timer();
