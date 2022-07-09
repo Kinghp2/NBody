@@ -24,7 +24,7 @@ int main(int argc, char **argv)
     vector<Body> bodies = generate_bodies();
     Euler *integrator = new Euler{bodies, time_step, T};
 
-    integrator->simulate_async();
+    integrator->simulate();
     delete integrator;
     return 0;
 }

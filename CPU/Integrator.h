@@ -10,8 +10,7 @@
 #include <vector>
 #include "Body.h"
 #include "numcpp/matrix.h"
-#include <future>
-#include "./store/Store.h"
+// #include "./store/Store.h"
 
 class Integrator
 {
@@ -41,7 +40,6 @@ private:
     void calculate_single_body_acceleration(int &index, Body &target_body);
     double cycle_time;
     uint64_t nanos();
-    std::vector< std::future<void> > mFuture;
 };
 
 #endif // CLION_MODERN_OPENGL_INTEGRATOR_H

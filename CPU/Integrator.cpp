@@ -58,7 +58,7 @@ void Euler::simulate()
     for (int i = 0; i < N; i++)
     {
         uint64_t start = timer();
-        std::async(std::launch::async, &Euler::update_locations, this);
+        update_locations();
         uint64_t stop = timer();
         auto time = (stop - start) * 1e-9;
 
@@ -67,10 +67,6 @@ void Euler::simulate()
         cout << "GFLOPS: " << gflops / time << endl;
         // storer.store();
     }
-}
-
-void Euler::simulate_async() {
-    mFuture.push_back(std::async(std::launch::async, &Euler::simulate, this));
 }
 
 matrix Euler::compute_positions(double T)
